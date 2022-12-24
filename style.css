@@ -1,0 +1,57 @@
+
+#navbar{
+position: sticky;
+width: 100%;
+top:0;
+
+}
+#home{
+    color: white;
+    float: right;
+    position:relative;
+    left: 980px;
+    padding-right:25px;
+    top:-30px;
+    
+}
+#image{
+    position: relative;
+    top:15px;
+}
+.container-fluid{
+    top:0px;
+    position: sticky;
+}
+
+header{
+    font-size:40px;
+    font-weight:400;
+}
+#para{
+   float: right; 
+}
+main{
+    display:grid;
+    grid-template-columns:275px 275px 275px;
+    grid-row-gap:10px;
+    grid-column-gap: 133px;
+    
+
+}
+.card{
+    z-index: -1;
+}
+img{
+    position: relative;
+    left:4px;
+    
+}
+footer{
+    display: block;
+}
+#foot{
+    float: right;
+    position: relative;
+    margin: -400px;
+    right:440px;
+}
